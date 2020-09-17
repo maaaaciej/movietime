@@ -1,9 +1,9 @@
 import React from "react";
 
-import "./genrebubble.styles.scss"
+import "./genrebubble.styles.scss";
 
-const GenreBubble = () => {
-  return <div className="genrebubble">GenreBubble</div>;
+const GenreBubble = ({ genre }) => {
+  return <div className="genrebubble">{genre}</div>;
 };
 
 export default GenreBubble;
