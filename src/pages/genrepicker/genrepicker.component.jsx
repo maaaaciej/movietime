@@ -17,6 +17,7 @@ const GenrePicker = () => {
           <GenreBubble genre={genre} key={genre} />
         ))}
       </div>
+      <button>Show Recommendations</button>
     </div>
   );
 };
