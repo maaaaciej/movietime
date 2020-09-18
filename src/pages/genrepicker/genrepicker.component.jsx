@@ -10,7 +10,7 @@ import "./genrepicker.styles.scss";
 const GenrePicker = () => {
   return (
     <div className="genrepicker">
-      GenrePicker
+      <h1 className="genrepicker-title">What are you in the mood for?</h1>
       <GenreForm />
       <div className="genrepicker-grid">
         {genres.map((genre) => (
